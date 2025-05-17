@@ -1,0 +1,72 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e6f7ff, #cce7ff); /* Light blue gradient */
+  font-family: Arial, sans-serif; /* Apply a readable font */
+}
+
+.App {
+  min-height: 100vh; /* Ensure the app takes the full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333; /* Text color that contrasts with the background */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header h1 {
+  font-size: 24px; /* Adjust the size as needed */
+  margin: 0; /* Optional: Removes default spacing around the heading */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  background-color: #647cad;
+  height: 30px; /* Make the header smaller */
+}
+
+.home-link {
+  text-decoration: none; /* Remove underline */
+  color: rgb(52, 65, 74);          /* Adjust the color to match your header */
+  font-size: 24px;       /* Adjust size to your liking */
+  font-weight: bold;     /* Make it bold */
+  cursor: pointer;       /* Show hand cursor on hover */
+}
+
+.home-link:hover {
+  color: #a2c0d6;        /* Optional: Add hover effect */
+}
+
+.logo img {
+  height: 40px; /* Size of the logo */
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
