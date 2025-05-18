@@ -38,6 +38,8 @@ spark-leArnZ/
 │   │── data.js      # API reference data
 │   │── App.js
 │   │── CodeCard.js
+│   │── App.css
+│   │── CodeCard.css
 │── public/
 │── LICENSE
 │── README.md
