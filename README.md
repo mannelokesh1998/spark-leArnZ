@@ -17,6 +17,7 @@ A dynamic learning platform for **PySpark**, focusing on organized API reference
 ### **1. Clone the Repository**
 ` bash
 git clone https://github.com/mannelokesh1998/spark-leArnZ.git
+
 cd spark-leArnZ `
 
 ### **2. Install Dependencies**
